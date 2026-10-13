@@ -1,9 +1,0 @@
----
-import Default from '@astrojs/starlight/components/PageTitle.astro';
-import EditLink from '@astrojs/starlight/components/EditLink.astro';
-
----
-
-<Default {...Astro.props}><slot /></Default>
-{import.meta.env.DEV && <EditLink {...Astro.props} />}
-{import.meta.env.DEV && <a href="#" onclick="const s=prompt('Nom de la page (sans espaces)'); if(s) location.href='/api/new?slug='+encodeURIComponent(s); return false;">+ Nouvelle page</a>}
