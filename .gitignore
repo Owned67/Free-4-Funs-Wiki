@@ -33,4 +33,4 @@ category.mjs
 patch.mjs
 
 .vscode
-srcCopie
+srcCopie"src/pages/api/" 

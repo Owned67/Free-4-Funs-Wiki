@@ -4,7 +4,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://Owned67.github.io/Free-4-Funs-Wiki',
+	site: 'https://github.com/Owned67/Free-4-Funs-Wiki',
     integrations: [
 		starlight({
               editLink: {
