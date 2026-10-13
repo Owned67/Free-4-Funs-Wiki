@@ -27,7 +27,7 @@ pnpm-debug.log*
 # Windows
 Thumbs.db
 desktop.ini
-
+convert-wiki.mjs
 mass-convert.mjs
 category.mjs
 patch.mjs
